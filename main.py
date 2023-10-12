@@ -36,9 +36,9 @@ def tell_fact():
         "The shortest war in history was between Britain and Zanzibar on August 27, 1896; it lasted just 38 minutes."or
         "The unicorn is Scotland's national animal.",
     ]
-    joke = random.choice(facts)
+    fact = random.choice(facts)
     print(f"Here's a fact for you: {facts}")
-    text_to_speech(joke)
+    text_to_speech(fact)
 
 if __name__ == '__main__':
     main()
